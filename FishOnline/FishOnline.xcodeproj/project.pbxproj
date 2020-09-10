@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE4AF24A250A1B8900287AF0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AF249250A1B8900287AF0 /* MainViewController.swift */; };
+		FE4AF24C250A1C2B00287AF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AF24B250A1C2B00287AF0 /* HomeViewController.swift */; };
+		FE4AF24F250A307F00287AF0 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AF24E250A307F00287AF0 /* UIBarButtonItem-Extension.swift */; };
+		FE92B811250A883300994F81 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE92B810250A883300994F81 /* Default-568h@2x.png */; };
+		FEBC0DFD2509DAB800A701E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBC0DFC2509DAB800A701E5 /* AppDelegate.swift */; };
+		FEBC0DFF2509DAB800A701E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBC0DFE2509DAB800A701E5 /* SceneDelegate.swift */; };
+		FEBC0E042509DAB800A701E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBC0E022509DAB800A701E5 /* Main.storyboard */; };
+		FEBC0E072509DAB800A701E5 /* FishOnline.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEBC0E052509DAB800A701E5 /* FishOnline.xcdatamodeld */; };
+		FEBC0E0C2509DABB00A701E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBC0E0A2509DABB00A701E5 /* LaunchScreen.storyboard */; };
+		FEBC0E992509E4A700A701E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBC0E982509E4A700A701E5 /* Assets.xcassets */; };
+		FEBC0EAA2509F8F900A701E5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBC0EA82509F8F900A701E5 /* Home.storyboard */; };
+		FEBC0EAC2509F91000A701E5 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBC0EAB2509F91000A701E5 /* Live.storyboard */; };
+		FEBC0EAF2509F92900A701E5 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBC0EAD2509F92900A701E5 /* Follow.storyboard */; };
+		FEBC0EB12509F94000A701E5 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBC0EB02509F94000A701E5 /* Profile.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE4AF249250A1B8900287AF0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FE4AF24B250A1C2B00287AF0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FE4AF24E250A307F00287AF0 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		FE92B810250A883300994F81 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FEBC0DF92509DAB800A701E5 /* FishOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBC0DFC2509DAB800A701E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEBC0DFE2509DAB800A701E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEBC0E032509DAB800A701E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEBC0E062509DAB800A701E5 /* FishOnline.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FishOnline.xcdatamodel; sourceTree = "<group>"; };
+		FEBC0E0B2509DABB00A701E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEBC0E0D2509DABB00A701E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBC0E982509E4A700A701E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEBC0EA92509F8F900A701E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FishOnline/Main/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		FEBC0EAB2509F91000A701E5 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		FEBC0EAE2509F92900A701E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FishOnline/Main/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		FEBC0EB02509F94000A701E5 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEBC0DF62509DAB800A701E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE4AF243250A1A0300287AF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEBC0EA82509F8F900A701E5 /* Home.storyboard */,
+				FE4AF24B250A1C2B00287AF0 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE4AF244250A1A0F00287AF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE4AF245250A1A1B00287AF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE4AF246250A1A3000287AF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEBC0E022509DAB800A701E5 /* Main.storyboard */,
+				FE4AF249250A1B8900287AF0 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE4AF247250A1A3A00287AF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE4AF248250A1A4500287AF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE4AF24D250A2D4900287AF0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FE4AF24E250A307F00287AF0 /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FEBC0DF02509DAB800A701E5 = {
+			isa = PBXGroup;
+			children = (
+				FEBC0DFB2509DAB800A701E5 /* FishOnline */,
+				FEBC0DFA2509DAB800A701E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBC0DFA2509DAB800A701E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEBC0DF92509DAB800A701E5 /* FishOnline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBC0DFB2509DAB800A701E5 /* FishOnline */ = {
+			isa = PBXGroup;
+			children = (
+				FEBC0E9E2509E53700A701E5 /* Main */,
+				FEBC0E9D2509E52D00A701E5 /* Home */,
+				FEBC0E9C2509E51E00A701E5 /* Live */,
+				FEBC0EA02509E58000A701E5 /* Follow */,
+				FEBC0E9B2509E51400A701E5 /* Profile */,
+				FE4AF24D250A2D4900287AF0 /* Extension */,
+				FEBC0E132509DACC00A701E5 /* Supporting File */,
+			);
+			path = FishOnline;
+			sourceTree = "<group>";
+		};
+		FEBC0E132509DACC00A701E5 /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				FE92B810250A883300994F81 /* Default-568h@2x.png */,
+				FEBC0DFC2509DAB800A701E5 /* AppDelegate.swift */,
+				FEBC0DFE2509DAB800A701E5 /* SceneDelegate.swift */,
+				FEBC0E982509E4A700A701E5 /* Assets.xcassets */,
+				FEBC0E0A2509DABB00A701E5 /* LaunchScreen.storyboard */,
+				FEBC0E0D2509DABB00A701E5 /* Info.plist */,
+				FEBC0E052509DAB800A701E5 /* FishOnline.xcdatamodeld */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		FEBC0E9B2509E51400A701E5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FEBC0EB02509F94000A701E5 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FEBC0E9C2509E51E00A701E5 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				FEBC0EAB2509F91000A701E5 /* Live.storyboard */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		FEBC0E9D2509E52D00A701E5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FE4AF245250A1A1B00287AF0 /* Model */,
+				FE4AF244250A1A0F00287AF0 /* View */,
+				FE4AF243250A1A0300287AF0 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FEBC0E9E2509E53700A701E5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FE4AF248250A1A4500287AF0 /* Model */,
+				FE4AF247250A1A3A00287AF0 /* View */,
+				FE4AF246250A1A3000287AF0 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FEBC0EA02509E58000A701E5 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				FEBC0EAD2509F92900A701E5 /* Follow.storyboard */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEBC0DF82509DAB800A701E5 /* FishOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBC0E102509DABB00A701E5 /* Build configuration list for PBXNativeTarget "FishOnline" */;
+			buildPhases = (
+				FEBC0DF52509DAB800A701E5 /* Sources */,
+				FEBC0DF62509DAB800A701E5 /* Frameworks */,
+				FEBC0DF72509DAB800A701E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishOnline;
+			productName = FishOnline;
+			productReference = FEBC0DF92509DAB800A701E5 /* FishOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEBC0DF12509DAB800A701E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Code With ZPG";
+				TargetAttributes = {
+					FEBC0DF82509DAB800A701E5 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = FEBC0DF42509DAB800A701E5 /* Build configuration list for PBXProject "FishOnline" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEBC0DF02509DAB800A701E5;
+			productRefGroup = FEBC0DFA2509DAB800A701E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEBC0DF82509DAB800A701E5 /* FishOnline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBC0DF72509DAB800A701E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBC0E0C2509DABB00A701E5 /* LaunchScreen.storyboard in Resources */,
+				FEBC0EAA2509F8F900A701E5 /* Home.storyboard in Resources */,
+				FEBC0EB12509F94000A701E5 /* Profile.storyboard in Resources */,
+				FEBC0EAC2509F91000A701E5 /* Live.storyboard in Resources */,
+				FEBC0EAF2509F92900A701E5 /* Follow.storyboard in Resources */,
+				FE92B811250A883300994F81 /* Default-568h@2x.png in Resources */,
+				FEBC0E992509E4A700A701E5 /* Assets.xcassets in Resources */,
+				FEBC0E042509DAB800A701E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEBC0DF52509DAB800A701E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4AF24C250A1C2B00287AF0 /* HomeViewController.swift in Sources */,
+				FEBC0DFD2509DAB800A701E5 /* AppDelegate.swift in Sources */,
+				FE4AF24F250A307F00287AF0 /* UIBarButtonItem-Extension.swift in Sources */,
+				FEBC0E072509DAB800A701E5 /* FishOnline.xcdatamodeld in Sources */,
+				FEBC0DFF2509DAB800A701E5 /* SceneDelegate.swift in Sources */,
+				FE4AF24A250A1B8900287AF0 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEBC0E022509DAB800A701E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBC0E032509DAB800A701E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEBC0E0A2509DABB00A701E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBC0E0B2509DABB00A701E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FEBC0EA82509F8F900A701E5 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBC0EA92509F8F900A701E5 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		FEBC0EAD2509F92900A701E5 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBC0EAE2509F92900A701E5 /* Base */,
+			);
+			name = Follow.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEBC0E0E2509DABB00A701E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEBC0E0F2509DABB00A701E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEBC0E112509DABB00A701E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W68LR5T6M3;
+				INFOPLIST_FILE = "FishOnline/Supporting File/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithzpg.FishOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FEBC0E122509DABB00A701E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W68LR5T6M3;
+				INFOPLIST_FILE = "FishOnline/Supporting File/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithzpg.FishOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEBC0DF42509DAB800A701E5 /* Build configuration list for PBXProject "FishOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBC0E0E2509DABB00A701E5 /* Debug */,
+				FEBC0E0F2509DABB00A701E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBC0E102509DABB00A701E5 /* Build configuration list for PBXNativeTarget "FishOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBC0E112509DABB00A701E5 /* Debug */,
+				FEBC0E122509DABB00A701E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEBC0E052509DAB800A701E5 /* FishOnline.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEBC0E062509DAB800A701E5 /* FishOnline.xcdatamodel */,
+			);
+			currentVersion = FEBC0E062509DAB800A701E5 /* FishOnline.xcdatamodel */;
+			path = FishOnline.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEBC0DF12509DAB800A701E5 /* Project object */;
+}
