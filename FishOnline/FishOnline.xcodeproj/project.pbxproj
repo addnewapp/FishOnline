@@ -10,6 +10,8 @@
 		FE4AF24A250A1B8900287AF0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AF249250A1B8900287AF0 /* MainViewController.swift */; };
 		FE4AF24C250A1C2B00287AF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AF24B250A1C2B00287AF0 /* HomeViewController.swift */; };
 		FE4AF24F250A307F00287AF0 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AF24E250A307F00287AF0 /* UIBarButtonItem-Extension.swift */; };
+		FE63B619250E66B3001CFB25 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE63B618250E66B3001CFB25 /* Common.swift */; };
+		FE744FAC250BE0C0004A3EC8 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE744FAB250BE0C0004A3EC8 /* PageTitleView.swift */; };
 		FE92B811250A883300994F81 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE92B810250A883300994F81 /* Default-568h@2x.png */; };
 		FEBC0DFD2509DAB800A701E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBC0DFC2509DAB800A701E5 /* AppDelegate.swift */; };
 		FEBC0DFF2509DAB800A701E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBC0DFE2509DAB800A701E5 /* SceneDelegate.swift */; };
@@ -27,6 +29,8 @@
 		FE4AF249250A1B8900287AF0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FE4AF24B250A1C2B00287AF0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FE4AF24E250A307F00287AF0 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		FE63B618250E66B3001CFB25 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		FE744FAB250BE0C0004A3EC8 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		FE92B810250A883300994F81 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FEBC0DF92509DAB800A701E5 /* FishOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBC0DFC2509DAB800A701E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 		FE4AF247250A1A3A00287AF0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FE744FAB250BE0C0004A3EC8 /* PageTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,10 +104,19 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FE4AF24D250A2D4900287AF0 /* Extension */ = {
+		FE4AF24D250A2D4900287AF0 /* Tools  */ = {
 			isa = PBXGroup;
 			children = (
+				FE63B61A250E66BE001CFB25 /* Extension */,
 				FE4AF24E250A307F00287AF0 /* UIBarButtonItem-Extension.swift */,
+				FE63B618250E66B3001CFB25 /* Common.swift */,
+			);
+			path = "Tools ";
+			sourceTree = "<group>";
+		};
+		FE63B61A250E66BE001CFB25 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -131,7 +145,7 @@
 				FEBC0E9C2509E51E00A701E5 /* Live */,
 				FEBC0EA02509E58000A701E5 /* Follow */,
 				FEBC0E9B2509E51400A701E5 /* Profile */,
-				FE4AF24D250A2D4900287AF0 /* Extension */,
+				FE4AF24D250A2D4900287AF0 /* Tools  */,
 				FEBC0E132509DACC00A701E5 /* Supporting File */,
 			);
 			path = FishOnline;
@@ -271,7 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE63B619250E66B3001CFB25 /* Common.swift in Sources */,
 				FE4AF24C250A1C2B00287AF0 /* HomeViewController.swift in Sources */,
+				FE744FAC250BE0C0004A3EC8 /* PageTitleView.swift in Sources */,
 				FEBC0DFD2509DAB800A701E5 /* AppDelegate.swift in Sources */,
 				FE4AF24F250A307F00287AF0 /* UIBarButtonItem-Extension.swift in Sources */,
 				FEBC0E072509DAB800A701E5 /* FishOnline.xcdatamodeld in Sources */,
