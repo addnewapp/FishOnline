@@ -27,7 +27,7 @@ class PageTitleView: UIView {
         let scrollLine = UIView()
         scrollLine.backgroundColor = .orange
         return scrollLine
-    }()
+    }()  
     // MARK：- 自定义构造函数
     init(frame: CGRect, titles: [String]) {
         self.titles = titles
@@ -92,7 +92,7 @@ extension PageTitleView {
         // 2. 添加ScrollLine
         // 2.1 获取第一个label
         guard let firstLabel = titleLabels.first else { return }
-        firstLabel.textColor = .orange
+        firstLabel.textColor = .darkGray
         
         // 2.2 设置scrollLine的属性
         scrollView.addSubview(scrollLine)
